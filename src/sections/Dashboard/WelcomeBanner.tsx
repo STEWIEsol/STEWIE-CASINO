@@ -99,16 +99,12 @@ const Welcome = styled.div`
   }
 `
 
-export function WelcomeBanner() {
-  return (
-    <Welcome>
-      <WelcomeContainer>
-        <LogoImage src="/logo.svg" alt="Stewie Casino Logo" />
-        <div>
-          <h1>Welcome to Stewie Casino</h1>
-          <p>A fair, simple and decentralized casino on Solana.</p>
-        </div>
-      </WelcomeContainer>
+ <Welcome>
+      <div>
+        <h1><img src="/logo.svg" alt="Stewie Casino Logo" />Welcome to Stewie Casino</h1>
+        
+        <p>A fair, simple and decentralized casino on Solana.</p>
+      </div>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
           Twitter 🐣
