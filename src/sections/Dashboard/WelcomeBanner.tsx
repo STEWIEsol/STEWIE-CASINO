@@ -103,14 +103,14 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 /logo.svg </h1>
+        <h1>Welcome to Stewie Casino /logo.svg </h1>
         <p>
           A fair, simple and decentralized casino on Solana.
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open(EXPLORER_URL, '_blank')}>
-          🚀 Add Liquidity
+        <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
+          Twitter 🐣
         </button>
         <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
           👨‍💻 Build your own
