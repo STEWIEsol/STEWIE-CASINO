@@ -107,7 +107,7 @@ export function WelcomeBanner() {
       </div>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
-          Twitter 🐣
+          Twitter<img src="/x.png"/>
         </button>
         <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
           👨‍💻 Build your own
