@@ -103,7 +103,7 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Stewie Casino /logo.svg </h1>
+        <h1>Welcome to Stewie Casino image: '/logo.svg' </h1>
         <p>
           A fair, simple and decentralized casino on Solana.
         </p>
