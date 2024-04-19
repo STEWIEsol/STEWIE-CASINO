@@ -98,7 +98,8 @@ const Welcome = styled.div`
     }
   }
 `
-
+export function WelcomeBanner() {
+  return (
  <Welcome>
       <div>
         <h1><img src="/logo.svg" alt="Stewie Casino Logo" />Welcome to Stewie Casino</h1>
