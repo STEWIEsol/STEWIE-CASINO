@@ -99,14 +99,20 @@ const Welcome = styled.div`
   }
 `
 
+const LogoImage = styled.img`
+  margin-right: 16px; /* Add some margin to separate the image from the text */
+`;
+
 export function WelcomeBanner() {
   return (
     <Welcome>
-      <div>
-        <h1>Welcome to Stewie Casino</h1>
-        <img src="/logo.svg" alt="Stewie Casino Logo" />
-        <p>A fair, simple and decentralized casino on Solana.</p>
-      </div>
+      <WelcomeContainer>
+        <LogoImage src="/logo.svg" alt="Stewie Casino Logo" />
+        <div>
+          <h1>Welcome to Stewie Casino</h1>
+          <p>A fair, simple and decentralized casino on Solana.</p>
+        </div>
+      </WelcomeContainer>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
           Twitter 🐣
