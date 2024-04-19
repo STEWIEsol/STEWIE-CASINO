@@ -103,10 +103,9 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Stewie Casino image: '/logo.svg' </h1>
-        <p>
-          A fair, simple and decentralized casino on Solana.
-        </p>
+        <h1>Welcome to Stewie Casino</h1>
+        <img src="/logo.svg" alt="Stewie Casino Logo" />
+        <p>A fair, simple and decentralized casino on Solana.</p>
       </div>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
@@ -120,5 +119,5 @@ export function WelcomeBanner() {
         </button>
       </Buttons>
     </Welcome>
-  )
+  );
 }
