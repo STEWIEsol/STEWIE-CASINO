@@ -102,7 +102,6 @@ const Welcome = styled.div`
  <Welcome>
       <div>
         <h1><img src="/logo.svg" alt="Stewie Casino Logo" />Welcome to Stewie Casino</h1>
-        
         <p>A fair, simple and decentralized casino on Solana.</p>
       </div>
       <Buttons>
