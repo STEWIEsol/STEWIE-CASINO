@@ -99,10 +99,6 @@ const Welcome = styled.div`
   }
 `
 
-const LogoImage = styled.img`
-  margin-right: 16px; /* Add some margin to separate the image from the text */
-`;
-
 export function WelcomeBanner() {
   return (
     <Welcome>
