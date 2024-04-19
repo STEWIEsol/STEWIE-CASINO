@@ -107,10 +107,10 @@ export function WelcomeBanner() {
       </div>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
-          Twitter <img src="/x.png" alt="X" style={{ width: '1em', height: '1em', marginLeft: '4px' }} />
+          Twitter <img src="/x.png" alt="X" style={{ width: '2em', height: '1em', marginLeft: '4px' }} />
         </button>
         <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          List your MeMe Token
+          List your MeMe Token 
         </button>
         <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
           💬 Discord
