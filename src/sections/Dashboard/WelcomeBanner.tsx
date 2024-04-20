@@ -38,7 +38,9 @@ const Buttons = styled.div`
 `;
 
 const Welcome = styled.div`
-  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  background-image: url('/NEON.png'); /* Adjust the path to your NEON image */
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -81,7 +83,7 @@ export function WelcomeBanner() {
     <Welcome>
       <div>
         <h1><img src="/logo.svg" alt="Stewie Casino Logo" />Stewie Casino</h1>
-        <p>A New Listing LICKGOATCOIN.</p>
+        <p>New Listing LICKGOATCOIN.</p>
         <button className="small-button" onClick={() => window.open('https://twitter.com/LickGoatCoin', '_blank')}>
            Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
