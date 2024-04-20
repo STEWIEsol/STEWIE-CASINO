@@ -118,7 +118,7 @@ export function WelcomeBanner() {
   return (
  <Welcome>
       <div>
-        <h1><img src="/logo.svg" alt="Stewie Casino Logo" />Welcome to Stewie Casino</h1>
+        <h1><img src="/logo.svg" alt="Stewie Casino Logo" />Stewie Casino</h1>
         <p>A fair, simple and decentralized casino on Solana.</p>
       </div>
       <Buttons>
@@ -126,7 +126,7 @@ export function WelcomeBanner() {
           Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
         <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          List your MeMe Token 
+          List your MeMe Token <img src="/meme.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
         <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
           💬 Discord
