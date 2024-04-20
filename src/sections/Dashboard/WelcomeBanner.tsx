@@ -119,7 +119,7 @@ export function WelcomeBanner() {
     <Welcome>
       <div>
         <h1><img src="/logo.svg" alt="Stewie Casino Logo" />Stewie Casino</h1>
-        <p>A New Listing LICKGOATCOIN .</p>
+        <p>A New Listing LICKGOATCOIN.</p>
         <button className="small-button" onClick={() => window.open('https://twitter.com/LickGoatCoin', '_blank')}>
            Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
