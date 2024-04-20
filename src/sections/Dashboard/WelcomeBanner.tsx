@@ -123,13 +123,13 @@ export function WelcomeBanner() {
       </div>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
-          Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
+          Twitter<img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
         <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          List your MeMe Token <img src="/meme.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
+          List your MeMe Token<img src="/meme.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        <button onClick={() => window.open('https://t.me/Stewiepuffy')}>
+          Telegram<img src="/Telegram.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
       </Buttons>
     </Welcome>
