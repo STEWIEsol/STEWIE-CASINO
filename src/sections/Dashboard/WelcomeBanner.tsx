@@ -109,7 +109,7 @@ export function WelcomeBanner() {
           Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
         <button onClick={() => window.open('https://forms.gle/wiwYbqPgVPaSMfds5', '_blank')}>
-          List your MeMe Token <img src="/meme.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
+          List your MeMe Coin <img src="/meme.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
         <button onClick={() => window.open('https://t.me/Stewiepuffy')}>
           Telegram <img src="/Telegram.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
