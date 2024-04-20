@@ -79,7 +79,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     image: '/lick.png',
     baseWager: 1e9, // Adjust baseWager as needed
     decimals: 9,
-    usdPrice: 0.00005897, // Adjust usdPrice as needed
+    usdPrice: 0, // Adjust usdPrice as needed
   },
 ]
 
