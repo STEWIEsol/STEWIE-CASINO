@@ -42,7 +42,7 @@ export const POOLS = [
   // Wormhole:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
   // New token (Lick):
-  lp('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ', 'J8YEx3dbc8Rk8vTQQnxcks4TP8dwKWNuDxg3fBevVh6G'),
+  lp('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ', '8v3CiYNamzjx9N8nT6w2cLRURgshuupxYVu8DH9DQrWn'),
 ]
 
 
@@ -98,4 +98,3 @@ export const TOKEN_METADATA_FETCHER = (
     }
   }
 )()
-
