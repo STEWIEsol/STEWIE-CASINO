@@ -42,8 +42,9 @@ export const POOLS = [
   // Wormhole:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
   // New token (Lick):
-  lp('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ'),
+  lp('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ', 'J8YEx3dbc8Rk8vTQQnxcks4TP8dwKWNuDxg3fBevVh6G'),
 ]
+
 
 // The default token to be selected
 export const DEFAULT_POOL = POOLS[0]
