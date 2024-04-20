@@ -77,10 +77,20 @@ const Welcome = styled.div`
     }
   }
 
-  h1, p {
+  h1 {
+    text-shadow: 4px 4px 4px black; /* Increases the size of the stroke */
+    padding: 10px;
+    font-size: 36px; /* Increased font size */
+    font-weight: bold; /* Added font weight for emphasis */
+    color: white; /* Added white color for better visibility */
+  }
+
+  p {
     text-shadow: 2px 2px 2px black; /* Adds a black stroke around the text */
     padding: 10px;
-    font-size: 30px; /* Increased font size */
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Added font weight for emphasis */
+    color: white; /* Added white color for better visibility */
   }
 `;
 
