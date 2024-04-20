@@ -41,6 +41,8 @@ export const POOLS = [
   lp(FAKE_TOKEN_MINT),
   // Wormhole:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+  // New token (Lick):
+  lp('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ'),
 ]
 
 // The default token to be selected
@@ -69,6 +71,16 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     decimals: 6,
     usdPrice: 0,
   },
+  // New token (Lick):
+  {
+    mint: new PublicKey('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ'),
+    name: 'Lick',
+    symbol: 'LICK',
+    image: '/lick.png',
+    baseWager: 1e9, // Adjust baseWager as needed
+    decimals: 9,
+    usdPrice: 0.00005897, // Adjust usdPrice as needed
+  },
 ]
 
 /**
@@ -85,3 +97,4 @@ export const TOKEN_METADATA_FETCHER = (
     }
   }
 )()
+
