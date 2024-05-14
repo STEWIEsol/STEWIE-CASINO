@@ -16,7 +16,7 @@ export const EXPLORER_URL = `https://explorer.gamba.so/`;
 export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
 
 // Creator fee (in %)
-export const PLATFORM_CREATOR_FEE = 0.05 // 1% (1/100 = 0.01)
+export const PLATFORM_CREATOR_FEE = 0.05 // 5% (5/100 = 0.05)
 
 // Jackpot fee (in %)
 export const PLATFORM_JACKPOT_FEE = 0.001 // 0.1% (0.1/100 = 0.001)
@@ -43,15 +43,16 @@ export const POOLS = [
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
   // New token (Lick):
   lp('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ', '8v3CiYNamzjx9N8nT6w2cLRURgshuupxYVu8DH9DQrWn'),
+  // New token (Stewie):
+  lp('Fy87Q5zs2hKYHqPVRSEX17nu9Yh18MYg67xKCFCiz5YN', '11111111111111111111111111111111'),
 ]
-
 
 // The default token to be selected
 export const DEFAULT_POOL = POOLS[0]
 
 /**
  * List of token metadata for the supported tokens
- * Alternatively, we can provide a fetcher method to automatically fetch metdata. See TOKEN_METADATA_FETCHER below.
+ * Alternatively, we can provide a fetcher method to automatically fetch metadata. See TOKEN_METADATA_FETCHER below.
  */
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
@@ -78,6 +79,16 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'Lick',
     symbol: 'LICK',
     image: '/lick.png',
+    baseWager: 1e9, // Adjust baseWager as needed
+    decimals: 9,
+    usdPrice: 0, // Adjust usdPrice as needed
+  },
+  // New token (Stewie):
+  {
+    mint: new PublicKey('Fy87Q5zs2hKYHqPVRSEX17nu9Yh18MYg67xKCFCiz5YN'),
+    name: 'Stewie',
+    symbol: 'STEWIE',
+    image: '/stewie logo.png', // Replace with the actual image path
     baseWager: 1e9, // Adjust baseWager as needed
     decimals: 9,
     usdPrice: 0, // Adjust usdPrice as needed
