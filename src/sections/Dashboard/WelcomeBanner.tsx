@@ -98,17 +98,13 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>STEWIE CASINO</h1>
-        <p>New Listing LICKGOATCOIN<img src="/lick.png" alt="X" style={{ width: '1em', height: '1em', marginLeft: '4px' }} /></p>
-        <button className="small-button" onClick={() => window.open('https://twitter.com/LickGoatCoin', '_blank')}>
-           Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
-        </button>
+        <h1>BROLI CASINO</h1>
       </div>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
           Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
-        <button onClick={() => window.open('https://forms.gle/wiwYbqPgVPaSMfds5', '_blank')}>
+        <button onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeAF-ebL7pxnZh4SOZu3etw-QEB7gkwuOggoTkAs_wXh16tew/viewform?usp=sf_link', '_blank')}>
           List your MeMe Coin <img src="/meme.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
         <button onClick={() => window.open('https://t.me/Stewiepuffy')}>
