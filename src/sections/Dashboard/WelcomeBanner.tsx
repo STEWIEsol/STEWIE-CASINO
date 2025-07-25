@@ -98,7 +98,7 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>BROLI CASINO</h1>
+        <h1>BROKI CASINO</h1>
       </div>
       <Buttons>
         <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
