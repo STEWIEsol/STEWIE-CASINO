@@ -86,9 +86,9 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   // New token (Stewie):
   {
     mint: new PublicKey('Fy87Q5zs2hKYHqPVRSEX17nu9Yh18MYg67xKCFCiz5YN'),
-    name: 'Stewie',
-    symbol: 'STEWIE',
-    image: '/stewie logo.png', // Replace with the actual image path
+    name: 'BROKI',
+    symbol: 'BROKI',
+    image: '/favicon.png', // Replace with the actual image path
     baseWager: 1e9, // Adjust baseWager as needed
     decimals: 9,
     usdPrice: 0, // Adjust usdPrice as needed
