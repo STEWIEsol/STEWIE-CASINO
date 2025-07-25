@@ -73,16 +73,6 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     decimals: 6,
     usdPrice: 0,
   },
-  // New token (Lick):
-  {
-    mint: new PublicKey('AKKasEPSAXaf9BRwyJTuU2TczYq6yUwj2FAk7U5b8cPZ'),
-    name: 'Lick',
-    symbol: 'LICK',
-    image: '/lick.png',
-    baseWager: 1e9, // Adjust baseWager as needed
-    decimals: 9,
-    usdPrice: 0, // Adjust usdPrice as needed
-  },
   // New token (Stewie):
   {
     mint: new PublicKey('Fy87Q5zs2hKYHqPVRSEX17nu9Yh18MYg67xKCFCiz5YN'),
